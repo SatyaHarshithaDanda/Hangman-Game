@@ -29,8 +29,7 @@ def hangman():
         else :
             print("Enter a valid character / Enter in small letter")
             print("")
-                
-        
+                      
         if guess not in word :
             turns=turns-1
             if turns == 9 :
@@ -120,8 +119,6 @@ def hangman():
                 print("")
                 print("")
                 break
-
-
 
 name= input("Enter Your Name")
 print("Welcome ",name)
